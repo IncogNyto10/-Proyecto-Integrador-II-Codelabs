@@ -3,4 +3,8 @@ opencv-python>=4.7
 matplotlib>=3.7
 mtcnn>=0.1.1
 tensorflow>=2.13
+# dlib is required by the video demo (face detector). On some platforms pip will build dlib from
+# source (requires CMake and a C++ toolchain). If installation fails on your system, install
+# the system-level build deps or use Python 3.11 for prebuilt wheels where available.
+dlib>=19.24
 # Optional: if you want CPU-only TensorFlow (smaller install): tensorflow-cpu>=2.13
