@@ -1,0 +1,6 @@
+numpy>=1.24
+opencv-python>=4.7
+matplotlib>=3.7
+mtcnn>=0.1.1
+tensorflow>=2.13
+# Optional: if you want CPU-only TensorFlow (smaller install): tensorflow-cpu>=2.13
